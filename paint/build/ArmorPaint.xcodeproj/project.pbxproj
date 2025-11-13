@@ -1,0 +1,865 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B952C0C-3274-F186-95FC-0901A2F970CD /* Deployment in Resources */ = {isa = PBXBuildFile; fileRef = 1E7C3085-9AA6-58F3-C2B4-C26B22169D0A /* Deployment */; };
+		599D6595-ED6A-E4E9-CA14-52009D66F631 /* /home/dawn-admin/repos/armorpaint/base/sources/iron.c in Sources */ = {isa = PBXBuildFile; fileRef = B2744D24-B092-FBD0-1DA2-D6FC136DE7FB /* /home/dawn-admin/repos/armorpaint/base/sources/iron.c */; };
+		CF991334-DC3E-39B8-A09A-154E540C37CB /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec4.c in Sources */ = {isa = PBXBuildFile; fileRef = ECCFA4E9-2004-F9E7-EB88-2CC3DFD6E616 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec4.c */; };
+		27E3A818-0D4A-0C4B-61EF-23B13E48E753 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_audio.c in Sources */ = {isa = PBXBuildFile; fileRef = 1E4E02F3-3B92-E979-8283-0682C22C7B52 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_audio.c */; };
+		6ADA0CA3-82A5-4C1D-7BC6-5EF590B33A9A /* /home/dawn-admin/repos/armorpaint/base/sources/const_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 72288158-61B1-784B-43DC-D299A88CA2D3 /* /home/dawn-admin/repos/armorpaint/base/sources/const_data.c */; };
+		CCA108FD-C741-7169-2BDC-19C86BDA13A7 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_file.c in Sources */ = {isa = PBXBuildFile; fileRef = 816DD671-07E5-DCD3-48D4-E8652B146326 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_file.c */; };
+		ED0931FF-5611-7636-F77B-53637FAE0C9F /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gpu.c in Sources */ = {isa = PBXBuildFile; fileRef = 846E5F7C-AE5E-343D-27FF-76EA04C8E946 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gpu.c */; };
+		D891A92E-5271-9EEF-5675-617F62FE4895 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_json.c in Sources */ = {isa = PBXBuildFile; fileRef = 97D3334A-80FC-C008-F1D4-D2F293489915 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_json.c */; };
+		09A451D3-A0E5-5325-28DC-0E592BB17E14 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui_nodes.c in Sources */ = {isa = PBXBuildFile; fileRef = EBEE6A8B-1DFE-A9A2-A9D7-DF9C1000FD73 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui_nodes.c */; };
+		50FF083C-ADE2-8852-F78A-9479C28B5288 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat3.c in Sources */ = {isa = PBXBuildFile; fileRef = CE659495-8413-9711-7F29-934305744294 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat3.c */; };
+		6D69D573-E6C8-F9E7-170E-CFA62453C939 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat4.c in Sources */ = {isa = PBXBuildFile; fileRef = 8317A138-425F-0BEE-ED34-4EBBEBA83FE9 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat4.c */; };
+		A8DB66BD-100A-DBC7-762C-1AC87185B174 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_string.c in Sources */ = {isa = PBXBuildFile; fileRef = DD227A07-9F22-8ED8-A7CE-70C2CC4390B4 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_string.c */; };
+		EAA9A9C9-8586-2C8E-A001-5C32DD87827B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_map.c in Sources */ = {isa = PBXBuildFile; fileRef = 708C02A3-0259-09DA-8265-EB8F2558D68D /* /home/dawn-admin/repos/armorpaint/base/sources/iron_map.c */; };
+		75184A2D-8155-39D4-1532-9A3D05B527B4 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_obj.c in Sources */ = {isa = PBXBuildFile; fileRef = FB76701C-A752-9A86-4C4E-1657BECD9B11 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_obj.c */; };
+		AA54616D-FE09-247C-14BA-BA5C464EAC9A /* /home/dawn-admin/repos/armorpaint/base/sources/iron_system.c in Sources */ = {isa = PBXBuildFile; fileRef = E850C33B-8947-5B1C-695A-9E3FBD9A1769 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_system.c */; };
+		13E4F28E-D554-F09D-C85F-ED0B5220D737 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui.c in Sources */ = {isa = PBXBuildFile; fileRef = 5E2A5705-1796-D823-CDF7-09D4671FFFD0 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui.c */; };
+		F25FA5E5-954A-B91B-91AC-B48E9B2DF31B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_quat.c in Sources */ = {isa = PBXBuildFile; fileRef = 50A4A1AB-DDFE-00AD-CB0E-D2C89DA6F7D7 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_quat.c */; };
+		CB17EC7A-B86D-FFDB-0406-0014F835A36B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec2.c in Sources */ = {isa = PBXBuildFile; fileRef = 88A2B720-6510-FFB2-8D5D-B798FDBB04E6 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec2.c */; };
+		EE5A1D79-A5CC-1804-079A-9FC947B1A659 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_draw.c in Sources */ = {isa = PBXBuildFile; fileRef = 2FF1A382-DC85-EC67-F24C-425768928764 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_draw.c */; };
+		E5C73B54-6B81-91DB-5AA2-ADFAFE03CFDD /* /home/dawn-admin/repos/armorpaint/base/sources/iron_armpack.c in Sources */ = {isa = PBXBuildFile; fileRef = 8E20C79C-4E7F-4A5F-176D-73D5416A9EE3 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_armpack.c */; };
+		31B42B5C-405C-360F-3654-4732115C9EBC /* /home/dawn-admin/repos/armorpaint/base/sources/iron_array.c in Sources */ = {isa = PBXBuildFile; fileRef = A3CDEB9A-8140-14E3-3FC7-9A1038E2C51B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_array.c */; };
+		800361F7-D905-86F3-692C-2CEAEF6655B1 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec3.c in Sources */ = {isa = PBXBuildFile; fileRef = 5EBBE580-434D-4E68-E57B-B01F7BB99A46 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec3.c */; };
+		F8DCF785-2A19-5A19-DF44-6F274A0882A8 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_math.c in Sources */ = {isa = PBXBuildFile; fileRef = 60C23BE1-7998-A19C-83AA-0C50D67B6E06 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_math.c */; };
+		D0A778B1-425A-8654-1762-684679B23FE1 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gc.c in Sources */ = {isa = PBXBuildFile; fileRef = 31F3F583-F1FB-DDEC-0461-C867432810BD /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gc.c */; };
+		B760592D-70D6-868D-8454-7BB675ABC5A5 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.m in Sources */ = {isa = PBXBuildFile; fileRef = 95340E59-1983-513C-2E45-B9E2A8D2E327 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.m */; };
+		AF468BC5-304E-7B4B-FF69-D1AFBFF45CC0 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A12E9B5-9C32-3712-6DCD-095E9C3429C7 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.m */; };
+		6F19BE96-CEB6-C4A2-2893-8EE331562E4C /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_net.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B79F692-A3BE-1C1A-D9EB-FF0BD190EC34 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_net.m */; };
+		C1A9EC28-9E38-95F6-5A5E-E1F0B51537CE /* /home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.m in Sources */ = {isa = PBXBuildFile; fileRef = AE3E5635-33E6-60D3-6F02-A6009EB955C2 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.m */; };
+		D2F820C9-DB95-8559-0F9B-878550103EF5 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_file_dialog.m in Sources */ = {isa = PBXBuildFile; fileRef = EE38C604-A6BF-15BB-8BC2-9D2E5CAF041F /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_file_dialog.m */; };
+		BD202682-2D02-9D68-AF67-45A9E0E68EAE /* /home/dawn-admin/repos/armorpaint/base/sources/plugins/plugin_api.c in Sources */ = {isa = PBXBuildFile; fileRef = E923F137-B439-2E80-77D2-E027C32FD724 /* /home/dawn-admin/repos/armorpaint/base/sources/plugins/plugin_api.c */; };
+		BAF69A44-712D-AF53-1C43-A083080C6AE4 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/gc.c in Sources */ = {isa = PBXBuildFile; fileRef = C5F75059-4FA9-12EA-E8F0-3F99514D3F0A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/gc.c */; };
+		C9755817-3BF6-CEB9-495E-1A438B0E64AC /* /home/dawn-admin/repos/armorpaint/base/sources/libs/quickjs-amalgam.c in Sources */ = {isa = PBXBuildFile; fileRef = D7DFA795-0EC3-B55F-ABE2-5B5512ECEAA0 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/quickjs-amalgam.c */; };
+		787DE25D-B116-09CB-8680-467B206CD8CC /* /home/dawn-admin/repos/armorpaint/base/sources/libs/asim.c in Sources */ = {isa = PBXBuildFile; fileRef = AC60CF8C-7C83-4317-7776-1AC5EBABC4E5 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/asim.c */; };
+		97225AF0-EC65-61CC-5265-24C30E42C6F2 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minimp4.c in Sources */ = {isa = PBXBuildFile; fileRef = A273748A-D7D4-DE0D-8B21-68DF1293E91B /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minimp4.c */; };
+		06B69C10-97B8-F38C-EF93-00F2FF2CE217 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minih264e.c in Sources */ = {isa = PBXBuildFile; fileRef = 5FE982D5-ABED-9274-E54E-830A14E7687D /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minih264e.c */; };
+		C8E772B8-F438-62C7-BA19-4932D4EF06DD /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/dir.c in Sources */ = {isa = PBXBuildFile; fileRef = 21440BA2-CF81-1DE5-F8F4-B9A67EC3CD06 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/dir.c */; };
+		B9DFB469-01B7-0D32-7DD5-743B02D9A6FA /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/functions.c in Sources */ = {isa = PBXBuildFile; fileRef = 61ADEDB6-959D-7A8A-20FB-E6E25D227F49 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/functions.c */; };
+		F9741C1D-84B7-5332-DD1F-EFD4303E2C85 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/compiler.c in Sources */ = {isa = PBXBuildFile; fileRef = B3739C6C-0105-C57C-13D1-0679B61FD50E /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/compiler.c */; };
+		9078A76F-3C22-E963-F80A-5D4D369CE051 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/names.c in Sources */ = {isa = PBXBuildFile; fileRef = 5178CCD1-F56D-3B89-00A4-6832F4AB1485 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/names.c */; };
+		04D0B6C4-6433-D1C5-AC62-6D1ED883A747 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/log.c in Sources */ = {isa = PBXBuildFile; fileRef = 959B9D4A-B7EB-3D6E-835B-7EF2BCD05F03 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/log.c */; };
+		8F7BABAC-F07E-40B8-18A0-F9B77CD7ABE3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/parser.c in Sources */ = {isa = PBXBuildFile; fileRef = B5128ACC-FD6A-DD9D-353E-59CFCD2FDAE4 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/parser.c */; };
+		B0B46078-3555-775A-72FC-06EDA58CED8A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/globals.c in Sources */ = {isa = PBXBuildFile; fileRef = 03E47E18-8ABE-64DD-99FF-D4DCC4929618 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/globals.c */; };
+		5F90BE82-CA2F-31AF-269E-04F41BE91AF0 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/kong.c in Sources */ = {isa = PBXBuildFile; fileRef = 91A6B603-10AD-D60D-3EAD-850CD6D17856 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/kong.c */; };
+		B1193D4E-BAB7-3BA4-6B04-D29DDA745365 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = 16A268E0-340E-84E2-4EFB-4A8BECC57F95 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/tokenizer.c */; };
+		C4E31F53-0D01-AC8B-93F1-1BFE7CE4D880 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/types.c in Sources */ = {isa = PBXBuildFile; fileRef = 02F52A12-8D74-1CE0-0D2D-A8DA827BF26D /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/types.c */; };
+		3B21BB98-AAFC-6E65-3FE5-52FCD729422D /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/typer.c in Sources */ = {isa = PBXBuildFile; fileRef = 8432B896-5733-062A-D0B4-5B0804ADE854 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/typer.c */; };
+		02EA9C16-3580-C7A7-9138-92F4BB2101C0 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/transformer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F2921E9-1A8F-6795-A2AF-98E4D31DD683 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/transformer.c */; };
+		D988C3C1-C482-E453-44B8-22A99C603038 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/analyzer.c in Sources */ = {isa = PBXBuildFile; fileRef = 565D4B8F-2D94-78F8-9C6E-656E9595978E /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/analyzer.c */; };
+		B9D6C0B0-983F-BC97-EBF5-CD13C84E2BA1 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/errors.c in Sources */ = {isa = PBXBuildFile; fileRef = 53ADF190-D126-06D3-9331-E21462913E53 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/errors.c */; };
+		0790D158-18F6-0D47-22BA-C2A691CDE542 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/disasm.c in Sources */ = {isa = PBXBuildFile; fileRef = 0AE30F63-A3B2-ADE1-7B2B-6A9BCFB65489 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/disasm.c */; };
+		26553B9A-083A-9296-8971-4CA28598B0E6 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/sets.c in Sources */ = {isa = PBXBuildFile; fileRef = 1851C0F4-3C3D-7CFF-D10C-428A827FEA9F /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/sets.c */; };
+		8D48D724-E79D-971B-E0CF-62C51BC9A3FE /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/hlsl.c in Sources */ = {isa = PBXBuildFile; fileRef = A6F69DD1-D6F4-F652-1462-9245D58D5C4B /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/hlsl.c */; };
+		26F7AB35-3CEB-4BA8-F2DD-E5949DDA356A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/metal.c in Sources */ = {isa = PBXBuildFile; fileRef = C3521B5C-2AE4-D15D-5FDF-50F14BD3A2C3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/metal.c */; };
+		9616FE67-AB18-9A7F-96DF-60B40905F72A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/spirv.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D20C1A5-B522-D79D-D4E6-C61549DD3A1A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/spirv.c */; };
+		A2317F0D-746D-908A-27A5-CCD2C81F3663 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/util.c in Sources */ = {isa = PBXBuildFile; fileRef = 48833E1B-BE03-6579-7259-4D1237AAC369 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/util.c */; };
+		F3F87A05-7A67-6C5E-51AB-A5A7B1D6940E /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/glsl.c in Sources */ = {isa = PBXBuildFile; fileRef = 47E20338-36F0-1723-2E2D-A23AC62013C2 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/glsl.c */; };
+		2BD9BCE6-89C8-A1D6-1377-51CCCB6C5FA7 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cpu.c in Sources */ = {isa = PBXBuildFile; fileRef = F6EC804C-83AE-737C-06F8-71C39007B2D3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cpu.c */; };
+		1F94F006-C74D-61BA-BE6B-23137DC28BC3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/wgsl.c in Sources */ = {isa = PBXBuildFile; fileRef = 8271BDBD-99B0-6FB9-4610-FC6B2E2BC6C8 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/wgsl.c */; };
+		6BA32C19-0E4D-A5F4-1330-EB9DAE72FDFF /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/d3d11.c in Sources */ = {isa = PBXBuildFile; fileRef = 36EE1D53-59B7-965F-775C-DE26359CF379 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/d3d11.c */; };
+		32B6636A-5E92-BB55-D7B5-EC21D524DC65 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cstyle.c in Sources */ = {isa = PBXBuildFile; fileRef = D0A053B2-FC11-F018-0709-4A32744E91D4 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cstyle.c */; };
+		FBEB8B18-584B-D5A6-5CFF-9F8D3D781114 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/libs/stb_ds.c in Sources */ = {isa = PBXBuildFile; fileRef = 14139636-006D-25CB-2A1F-B1F6D382AD6C /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/libs/stb_ds.c */; };
+		0CF76BB6-088E-F84B-EDE2-4DCE8420448C /* /home/dawn-admin/repos/armorpaint/paint/plugins/plugins.c in Sources */ = {isa = PBXBuildFile; fileRef = 5925E4C3-EA9B-D61D-E32D-D4F42A8F1E4D /* /home/dawn-admin/repos/armorpaint/paint/plugins/plugins.c */; };
+		2FABB75D-F9C0-F847-632F-C3B80A162D7A /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_exr/io_exr.c in Sources */ = {isa = PBXBuildFile; fileRef = FA52E398-0B6C-1CA8-8A58-27B1864588B9 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_exr/io_exr.c */; };
+		BD7CF8CA-DA94-5BC1-63A4-A0BB5C4E1A2B /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.c in Sources */ = {isa = PBXBuildFile; fileRef = C0DE6ACE-0E55-402E-D19F-BDDE5BB33202 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.c */; };
+		EB18EF76-CA85-1B1D-82FD-07771CC90BBA /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D9A73AA8-E78B-2512-E79B-B1E1AF89F06E /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.cpp */; };
+		413F2AA9-70BD-79E4-31F5-4828FF9FD8F4 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/io_usd.cc in Sources */ = {isa = PBXBuildFile; fileRef = 76B80A6F-323E-6D17-E811-599D8A62FCFF /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/io_usd.cc */; };
+		5C47572C-63FF-BEE6-132A-55AC8A6226C8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7601496F-9133-B385-377E-5614A4FDB04A /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.cpp */; };
+		A104CC0B-BB2C-E104-D2EF-9D5F0402DCAE /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4C8F530C-77B5-A7E8-DB2C-D06E8D7663B8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.cc */; };
+		E8A5763F-1461-16A3-81CB-0799009684A9 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.cc in Sources */ = {isa = PBXBuildFile; fileRef = 0136371E-7934-A9B7-8627-942BB4AFF369 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.cc */; };
+		B40DDC01-F893-9731-5D32-AB96F887C171 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 513A95B9-C270-B657-9BA2-322801C986D8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.cpp */; };
+		C721C7D6-6458-8565-5531-1C95DF8A4CE7 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/io_fbx.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B6FE63E-BD09-1D33-F43D-C17D76350E9A /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/io_fbx.c */; };
+		E23E7CF1-C9CA-3774-AFD7-D3F2FD163BE0 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.c in Sources */ = {isa = PBXBuildFile; fileRef = 09383984-11E6-0A0E-7B3A-DC3E72B0546D /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.c */; };
+		D50E97C3-1FAA-253E-EA1D-E0E57CF5F191 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.c in Sources */ = {isa = PBXBuildFile; fileRef = 77B45EF3-497D-6D79-3C26-3466276D941C /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.c */; };
+		A7F4F1C6-6414-56DE-DB06-02B49D1D7FE8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CBF5614-D4AB-A74C-82D2-23F053397A7E /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0753EC43-7AC3-ABDD-AEA5-BD519E5111A4 /* ArmorPaint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArmorPaint.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E7C3085-9AA6-58F3-C2B4-C26B22169D0A /* Deployment */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Deployment; path = "/home/dawn-admin/repos/armorpaint/paint/build/out"; sourceTree = "<group>"; };
+		B2744D24-B092-FBD0-1DA2-D6FC136DE7FB /* /home/dawn-admin/repos/armorpaint/base/sources/iron.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron.c"; sourceTree = "<group>"; };
+		ECCFA4E9-2004-F9E7-EB88-2CC3DFD6E616 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_vec4.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_vec4.c"; sourceTree = "<group>"; };
+		1E4E02F3-3B92-E979-8283-0682C22C7B52 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_audio.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_audio.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_audio.c"; sourceTree = "<group>"; };
+		72288158-61B1-784B-43DC-D299A88CA2D3 /* /home/dawn-admin/repos/armorpaint/base/sources/const_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "const_data.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/const_data.c"; sourceTree = "<group>"; };
+		816DD671-07E5-DCD3-48D4-E8652B146326 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_file.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_file.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_file.c"; sourceTree = "<group>"; };
+		846E5F7C-AE5E-343D-27FF-76EA04C8E946 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gpu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_gpu.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_gpu.c"; sourceTree = "<group>"; };
+		97D3334A-80FC-C008-F1D4-D2F293489915 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_json.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_json.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_json.c"; sourceTree = "<group>"; };
+		EBEE6A8B-1DFE-A9A2-A9D7-DF9C1000FD73 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui_nodes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_ui_nodes.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_ui_nodes.c"; sourceTree = "<group>"; };
+		CE659495-8413-9711-7F29-934305744294 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_mat3.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_mat3.c"; sourceTree = "<group>"; };
+		8317A138-425F-0BEE-ED34-4EBBEBA83FE9 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_mat4.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_mat4.c"; sourceTree = "<group>"; };
+		DD227A07-9F22-8ED8-A7CE-70C2CC4390B4 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_string.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_string.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_string.c"; sourceTree = "<group>"; };
+		708C02A3-0259-09DA-8265-EB8F2558D68D /* /home/dawn-admin/repos/armorpaint/base/sources/iron_map.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_map.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_map.c"; sourceTree = "<group>"; };
+		FB76701C-A752-9A86-4C4E-1657BECD9B11 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_obj.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_obj.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_obj.c"; sourceTree = "<group>"; };
+		E850C33B-8947-5B1C-695A-9E3FBD9A1769 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_system.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_system.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_system.c"; sourceTree = "<group>"; };
+		5E2A5705-1796-D823-CDF7-09D4671FFFD0 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_ui.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_ui.c"; sourceTree = "<group>"; };
+		50A4A1AB-DDFE-00AD-CB0E-D2C89DA6F7D7 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_quat.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_quat.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_quat.c"; sourceTree = "<group>"; };
+		88A2B720-6510-FFB2-8D5D-B798FDBB04E6 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec2.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_vec2.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_vec2.c"; sourceTree = "<group>"; };
+		2FF1A382-DC85-EC67-F24C-425768928764 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_draw.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_draw.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_draw.c"; sourceTree = "<group>"; };
+		8E20C79C-4E7F-4A5F-176D-73D5416A9EE3 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_armpack.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_armpack.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_armpack.c"; sourceTree = "<group>"; };
+		A3CDEB9A-8140-14E3-3FC7-9A1038E2C51B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_array.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_array.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_array.c"; sourceTree = "<group>"; };
+		5EBBE580-434D-4E68-E57B-B01F7BB99A46 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec3.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_vec3.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_vec3.c"; sourceTree = "<group>"; };
+		60C23BE1-7998-A19C-83AA-0C50D67B6E06 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_math.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_math.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_math.c"; sourceTree = "<group>"; };
+		31F3F583-F1FB-DDEC-0461-C867432810BD /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "iron_gc.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/iron_gc.c"; sourceTree = "<group>"; };
+		95340E59-1983-513C-2E45-B9E2A8D2E327 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ios_system.m"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.m"; sourceTree = "<group>"; };
+		3A12E9B5-9C32-3712-6DCD-095E9C3429C7 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "apple_thread.m"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.m"; sourceTree = "<group>"; };
+		5B79F692-A3BE-1C1A-D9EB-FF0BD190EC34 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_net.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "apple_net.m"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/apple_net.m"; sourceTree = "<group>"; };
+		AE3E5635-33E6-60D3-6F02-A6009EB955C2 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "metal_gpu.m"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.m"; sourceTree = "<group>"; };
+		5E2CAE3B-8CE7-B353-8F71-C795D5B15C29 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "metal_gpu.h"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.h"; sourceTree = "<group>"; };
+		EE38C604-A6BF-15BB-8BC2-9D2E5CAF041F /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_file_dialog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "ios_file_dialog.m"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/ios_file_dialog.m"; sourceTree = "<group>"; };
+		411B171D-1553-EA31-D75F-128AE39874FA /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "apple_thread.h"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.h"; sourceTree = "<group>"; };
+		503832E2-B76A-EF59-5A6C-04FC91EA3499 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ios_system.h"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.h"; sourceTree = "<group>"; };
+		32314488-92DD-4534-8FAB-84D281579E68 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/data/ios.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "ios.plist"; path = "/home/dawn-admin/repos/armorpaint/base/sources/backends/data/ios.plist"; sourceTree = "<group>"; };
+		E923F137-B439-2E80-77D2-E027C32FD724 /* /home/dawn-admin/repos/armorpaint/base/sources/plugins/plugin_api.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "plugin_api.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/plugins/plugin_api.c"; sourceTree = "<group>"; };
+		C5F75059-4FA9-12EA-E8F0-3F99514D3F0A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/gc.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "gc.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/gc.c"; sourceTree = "<group>"; };
+		D7DFA795-0EC3-B55F-ABE2-5B5512ECEAA0 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/quickjs-amalgam.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "quickjs-amalgam.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/quickjs-amalgam.c"; sourceTree = "<group>"; };
+		AC60CF8C-7C83-4317-7776-1AC5EBABC4E5 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/asim.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "asim.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/asim.c"; sourceTree = "<group>"; };
+		A273748A-D7D4-DE0D-8B21-68DF1293E91B /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minimp4.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "minimp4.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/minimp4.c"; sourceTree = "<group>"; };
+		5FE982D5-ABED-9274-E54E-830A14E7687D /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minih264e.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "minih264e.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/minih264e.c"; sourceTree = "<group>"; };
+		21440BA2-CF81-1DE5-F8F4-B9A67EC3CD06 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/dir.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "dir.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/dir.c"; sourceTree = "<group>"; };
+		61ADEDB6-959D-7A8A-20FB-E6E25D227F49 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/functions.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "functions.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/functions.c"; sourceTree = "<group>"; };
+		B3739C6C-0105-C57C-13D1-0679B61FD50E /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/compiler.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "compiler.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/compiler.c"; sourceTree = "<group>"; };
+		5178CCD1-F56D-3B89-00A4-6832F4AB1485 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/names.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "names.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/names.c"; sourceTree = "<group>"; };
+		959B9D4A-B7EB-3D6E-835B-7EF2BCD05F03 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/log.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "log.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/log.c"; sourceTree = "<group>"; };
+		B5128ACC-FD6A-DD9D-353E-59CFCD2FDAE4 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/parser.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "parser.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/parser.c"; sourceTree = "<group>"; };
+		03E47E18-8ABE-64DD-99FF-D4DCC4929618 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/globals.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "globals.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/globals.c"; sourceTree = "<group>"; };
+		91A6B603-10AD-D60D-3EAD-850CD6D17856 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/kong.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "kong.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/kong.c"; sourceTree = "<group>"; };
+		16A268E0-340E-84E2-4EFB-4A8BECC57F95 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/tokenizer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "tokenizer.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/tokenizer.c"; sourceTree = "<group>"; };
+		02F52A12-8D74-1CE0-0D2D-A8DA827BF26D /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/types.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "types.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/types.c"; sourceTree = "<group>"; };
+		8432B896-5733-062A-D0B4-5B0804ADE854 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/typer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "typer.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/typer.c"; sourceTree = "<group>"; };
+		5F2921E9-1A8F-6795-A2AF-98E4D31DD683 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/transformer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "transformer.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/transformer.c"; sourceTree = "<group>"; };
+		565D4B8F-2D94-78F8-9C6E-656E9595978E /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/analyzer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "analyzer.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/analyzer.c"; sourceTree = "<group>"; };
+		53ADF190-D126-06D3-9331-E21462913E53 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/errors.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "errors.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/errors.c"; sourceTree = "<group>"; };
+		0AE30F63-A3B2-ADE1-7B2B-6A9BCFB65489 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/disasm.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "disasm.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/disasm.c"; sourceTree = "<group>"; };
+		1851C0F4-3C3D-7CFF-D10C-428A827FEA9F /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/sets.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "sets.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/sets.c"; sourceTree = "<group>"; };
+		A6F69DD1-D6F4-F652-1462-9245D58D5C4B /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/hlsl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "hlsl.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/hlsl.c"; sourceTree = "<group>"; };
+		C3521B5C-2AE4-D15D-5FDF-50F14BD3A2C3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/metal.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "metal.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/metal.c"; sourceTree = "<group>"; };
+		8D20C1A5-B522-D79D-D4E6-C61549DD3A1A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/spirv.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "spirv.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/spirv.c"; sourceTree = "<group>"; };
+		48833E1B-BE03-6579-7259-4D1237AAC369 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/util.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "util.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/util.c"; sourceTree = "<group>"; };
+		47E20338-36F0-1723-2E2D-A23AC62013C2 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/glsl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "glsl.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/glsl.c"; sourceTree = "<group>"; };
+		F6EC804C-83AE-737C-06F8-71C39007B2D3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cpu.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "cpu.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cpu.c"; sourceTree = "<group>"; };
+		8271BDBD-99B0-6FB9-4610-FC6B2E2BC6C8 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/wgsl.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "wgsl.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/wgsl.c"; sourceTree = "<group>"; };
+		36EE1D53-59B7-965F-775C-DE26359CF379 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/d3d11.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "d3d11.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/d3d11.c"; sourceTree = "<group>"; };
+		D0A053B2-FC11-F018-0709-4A32744E91D4 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cstyle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "cstyle.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cstyle.c"; sourceTree = "<group>"; };
+		14139636-006D-25CB-2A1F-B1F6D382AD6C /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/libs/stb_ds.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "stb_ds.c"; path = "/home/dawn-admin/repos/armorpaint/base/sources/libs/kong/libs/stb_ds.c"; sourceTree = "<group>"; };
+		5925E4C3-EA9B-D61D-E32D-D4F42A8F1E4D /* /home/dawn-admin/repos/armorpaint/paint/plugins/plugins.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "plugins.c"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/plugins.c"; sourceTree = "<group>"; };
+		FA52E398-0B6C-1CA8-8A58-27B1864588B9 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_exr/io_exr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "io_exr.c"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_exr/io_exr.c"; sourceTree = "<group>"; };
+		1A3C5CA9-F4D1-D567-75EF-D4C49F430EF2 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "LICENSE.md"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/LICENSE.md"; sourceTree = "<group>"; };
+		C0DE6ACE-0E55-402E-D19F-BDDE5BB33202 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "nanosvg.c"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.c"; sourceTree = "<group>"; };
+		470EB9FC-8025-D390-6457-CBDF31FDBE37 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "nanosvg.h"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.h"; sourceTree = "<group>"; };
+		FE09D2FD-24A7-3C5F-4426-0E01EFC2DA0F /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvgrast.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "nanosvgrast.h"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvgrast.h"; sourceTree = "<group>"; };
+		76272066-0657-BC87-27BB-80D4C705218B /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "LICENSE.md"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/LICENSE.md"; sourceTree = "<group>"; };
+		D211965D-ADBD-10D3-6D0B-FE7DEC62E050 /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "xatlas.h"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.h"; sourceTree = "<group>"; };
+		D9A73AA8-E78B-2512-E79B-B1E1AF89F06E /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = "xatlas.cpp"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.cpp"; sourceTree = "<group>"; };
+		76B80A6F-323E-6D17-E811-599D8A62FCFF /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/io_usd.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = "io_usd.cc"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/io_usd.cc"; sourceTree = "<group>"; };
+		A1DD050C-6370-8283-87BB-800F0ACCDE73 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.hh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "lz4-compression.hh"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.hh"; sourceTree = "<group>"; };
+		D456E51E-F034-7562-3BE2-0F2533C53558 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.hh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "tinyusdz.hh"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.hh"; sourceTree = "<group>"; };
+		7601496F-9133-B385-377E-5614A4FDB04A /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = "integerCoding.cpp"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.cpp"; sourceTree = "<group>"; };
+		39B71219-03A9-A65D-8FFD-A6A9E5D255F8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/LICENSE */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "LICENSE"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/LICENSE"; sourceTree = "<group>"; };
+		4C8F530C-77B5-A7E8-DB2C-D06E8D7663B8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = "tinyusdz.cc"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.cc"; sourceTree = "<group>"; };
+		42650A76-EA2A-7220-6482-DE58713709A7 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/stream-reader.hh */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "stream-reader.hh"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/stream-reader.hh"; sourceTree = "<group>"; };
+		0136371E-7934-A9B7-8627-942BB4AFF369 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.cc */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = "lz4-compression.cc"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.cc"; sourceTree = "<group>"; };
+		F1B63949-6483-386C-4DA9-087EEC4803EC /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "integerCoding.h"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.h"; sourceTree = "<group>"; };
+		513A95B9-C270-B657-9BA2-322801C986D8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.cpp; name = "lz4.cpp"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.cpp"; sourceTree = "<group>"; };
+		F042CBDD-3C21-1A5F-6E3F-553AB2DFA118 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "lz4.h"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.h"; sourceTree = "<group>"; };
+		A5F4C2FC-4D86-769E-E13E-01C5BE42EEE9 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/external/stb_image.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "stb_image.h"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/external/stb_image.h"; sourceTree = "<group>"; };
+		9B6FE63E-BD09-1D33-F43D-C17D76350E9A /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/io_fbx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "io_fbx.c"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/io_fbx.c"; sourceTree = "<group>"; };
+		09383984-11E6-0A0E-7B3A-DC3E72B0546D /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "ufbx.c"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.c"; sourceTree = "<group>"; };
+		3665224F-286D-DDE1-0BCA-C31A92CDDF3D /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/LICENSE */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "LICENSE"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/LICENSE"; sourceTree = "<group>"; };
+		EB45C1F9-CCD1-1D69-F850-0F7097BD33CB /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ufbx.h"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.h"; sourceTree = "<group>"; };
+		BF719DFE-2442-7F91-3388-133F27172475 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/LICENSE.md */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "LICENSE.md"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/LICENSE.md"; sourceTree = "<group>"; };
+		77B45EF3-497D-6D79-3C26-3466276D941C /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "cgltf.c"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.c"; sourceTree = "<group>"; };
+		7764BB70-1365-542C-306F-FBEA90503B70 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "cgltf.h"; path = "/home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.h"; sourceTree = "<group>"; };
+		6CBF5614-D4AB-A74C-82D2-23F053397A7E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A353513-1942-BCCF-EA5D-68A82699F97E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A55EDB8A-A78E-2100-1DC9-726690C1F95B = {
+			isa = PBXGroup;
+			children = (
+				6CBF5614-D4AB-A74C-82D2-23F053397A7E /* Images.xcassets */,
+				1E7C3085-9AA6-58F3-C2B4-C26B22169D0A /* Deployment */,
+				C6E3899E-E32C-B0C7-A93F-6D3DAC42C749 /* Base */,
+				60B66DE4-3559-43CA-61F1-FFCF3A16A27B /* paint */,
+				63D69D80-9A0A-C3ED-3D76-77C1C3D07A54 /* Frameworks */,
+				17F36A59-38A9-F105-7757-9060D017C0EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		17F36A59-38A9-F105-7757-9060D017C0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0753EC43-7AC3-ABDD-AEA5-BD519E5111A4 /* ArmorPaint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63D69D80-9A0A-C3ED-3D76-77C1C3D07A54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DE14DBC-5B88-44AB-3E03-54807311EEE2 /* Base/sources */ = {
+			isa = PBXGroup;
+			children = (
+				B014176B-628D-C3CF-E341-0BAE5CD4661A /* Base/sources/backends */,
+				0829811F-92BF-A34B-ACFE-A27E14E54A46 /* Base/sources/plugins */,
+				35FCC8AE-11F1-05B2-7ED8-F108A620A198 /* Base/sources/libs */,
+				B2744D24-B092-FBD0-1DA2-D6FC136DE7FB /* /home/dawn-admin/repos/armorpaint/base/sources/iron.c */,
+				ECCFA4E9-2004-F9E7-EB88-2CC3DFD6E616 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec4.c */,
+				1E4E02F3-3B92-E979-8283-0682C22C7B52 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_audio.c */,
+				72288158-61B1-784B-43DC-D299A88CA2D3 /* /home/dawn-admin/repos/armorpaint/base/sources/const_data.c */,
+				816DD671-07E5-DCD3-48D4-E8652B146326 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_file.c */,
+				846E5F7C-AE5E-343D-27FF-76EA04C8E946 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gpu.c */,
+				97D3334A-80FC-C008-F1D4-D2F293489915 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_json.c */,
+				EBEE6A8B-1DFE-A9A2-A9D7-DF9C1000FD73 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui_nodes.c */,
+				CE659495-8413-9711-7F29-934305744294 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat3.c */,
+				8317A138-425F-0BEE-ED34-4EBBEBA83FE9 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat4.c */,
+				DD227A07-9F22-8ED8-A7CE-70C2CC4390B4 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_string.c */,
+				708C02A3-0259-09DA-8265-EB8F2558D68D /* /home/dawn-admin/repos/armorpaint/base/sources/iron_map.c */,
+				FB76701C-A752-9A86-4C4E-1657BECD9B11 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_obj.c */,
+				E850C33B-8947-5B1C-695A-9E3FBD9A1769 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_system.c */,
+				5E2A5705-1796-D823-CDF7-09D4671FFFD0 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui.c */,
+				50A4A1AB-DDFE-00AD-CB0E-D2C89DA6F7D7 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_quat.c */,
+				88A2B720-6510-FFB2-8D5D-B798FDBB04E6 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec2.c */,
+				2FF1A382-DC85-EC67-F24C-425768928764 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_draw.c */,
+				8E20C79C-4E7F-4A5F-176D-73D5416A9EE3 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_armpack.c */,
+				A3CDEB9A-8140-14E3-3FC7-9A1038E2C51B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_array.c */,
+				5EBBE580-434D-4E68-E57B-B01F7BB99A46 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec3.c */,
+				60C23BE1-7998-A19C-83AA-0C50D67B6E06 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_math.c */,
+				31F3F583-F1FB-DDEC-0461-C867432810BD /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gc.c */,
+			);
+			name = "sources";
+			sourceTree = "<group>";
+		};
+		C6E3899E-E32C-B0C7-A93F-6D3DAC42C749 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				8DE14DBC-5B88-44AB-3E03-54807311EEE2 /* Base/sources */,
+			);
+			path = ../;
+			name = "Base";
+			sourceTree = "<group>";
+		};
+		B014176B-628D-C3CF-E341-0BAE5CD4661A /* Base/sources/backends */ = {
+			isa = PBXGroup;
+			children = (
+				8CBB61E5-911E-4A3C-6098-6D3DD995023B /* Base/sources/backends/data */,
+				95340E59-1983-513C-2E45-B9E2A8D2E327 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.m */,
+				3A12E9B5-9C32-3712-6DCD-095E9C3429C7 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.m */,
+				5B79F692-A3BE-1C1A-D9EB-FF0BD190EC34 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_net.m */,
+				AE3E5635-33E6-60D3-6F02-A6009EB955C2 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.m */,
+				5E2CAE3B-8CE7-B353-8F71-C795D5B15C29 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.h */,
+				EE38C604-A6BF-15BB-8BC2-9D2E5CAF041F /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_file_dialog.m */,
+				411B171D-1553-EA31-D75F-128AE39874FA /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.h */,
+				503832E2-B76A-EF59-5A6C-04FC91EA3499 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.h */,
+			);
+			name = "backends";
+			sourceTree = "<group>";
+		};
+		8CBB61E5-911E-4A3C-6098-6D3DD995023B /* Base/sources/backends/data */ = {
+			isa = PBXGroup;
+			children = (
+				32314488-92DD-4534-8FAB-84D281579E68 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/data/ios.plist */,
+			);
+			name = "data";
+			sourceTree = "<group>";
+		};
+		0829811F-92BF-A34B-ACFE-A27E14E54A46 /* Base/sources/plugins */ = {
+			isa = PBXGroup;
+			children = (
+				E923F137-B439-2E80-77D2-E027C32FD724 /* /home/dawn-admin/repos/armorpaint/base/sources/plugins/plugin_api.c */,
+			);
+			name = "plugins";
+			sourceTree = "<group>";
+		};
+		35FCC8AE-11F1-05B2-7ED8-F108A620A198 /* Base/sources/libs */ = {
+			isa = PBXGroup;
+			children = (
+				9A331E65-921B-402D-8E51-A5078D68BA0D /* Base/sources/libs/kong */,
+				C5F75059-4FA9-12EA-E8F0-3F99514D3F0A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/gc.c */,
+				D7DFA795-0EC3-B55F-ABE2-5B5512ECEAA0 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/quickjs-amalgam.c */,
+				AC60CF8C-7C83-4317-7776-1AC5EBABC4E5 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/asim.c */,
+				A273748A-D7D4-DE0D-8B21-68DF1293E91B /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minimp4.c */,
+				5FE982D5-ABED-9274-E54E-830A14E7687D /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minih264e.c */,
+			);
+			name = "libs";
+			sourceTree = "<group>";
+		};
+		9A331E65-921B-402D-8E51-A5078D68BA0D /* Base/sources/libs/kong */ = {
+			isa = PBXGroup;
+			children = (
+				8AE03534-16D9-7E04-BEDC-D4A51B97F6BB /* Base/sources/libs/kong/backends */,
+				541EB967-8DBF-8E9C-70C1-4B7BA8E5DBAB /* Base/sources/libs/kong/libs */,
+				21440BA2-CF81-1DE5-F8F4-B9A67EC3CD06 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/dir.c */,
+				61ADEDB6-959D-7A8A-20FB-E6E25D227F49 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/functions.c */,
+				B3739C6C-0105-C57C-13D1-0679B61FD50E /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/compiler.c */,
+				5178CCD1-F56D-3B89-00A4-6832F4AB1485 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/names.c */,
+				959B9D4A-B7EB-3D6E-835B-7EF2BCD05F03 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/log.c */,
+				B5128ACC-FD6A-DD9D-353E-59CFCD2FDAE4 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/parser.c */,
+				03E47E18-8ABE-64DD-99FF-D4DCC4929618 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/globals.c */,
+				91A6B603-10AD-D60D-3EAD-850CD6D17856 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/kong.c */,
+				16A268E0-340E-84E2-4EFB-4A8BECC57F95 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/tokenizer.c */,
+				02F52A12-8D74-1CE0-0D2D-A8DA827BF26D /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/types.c */,
+				8432B896-5733-062A-D0B4-5B0804ADE854 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/typer.c */,
+				5F2921E9-1A8F-6795-A2AF-98E4D31DD683 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/transformer.c */,
+				565D4B8F-2D94-78F8-9C6E-656E9595978E /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/analyzer.c */,
+				53ADF190-D126-06D3-9331-E21462913E53 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/errors.c */,
+				0AE30F63-A3B2-ADE1-7B2B-6A9BCFB65489 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/disasm.c */,
+				1851C0F4-3C3D-7CFF-D10C-428A827FEA9F /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/sets.c */,
+			);
+			name = "kong";
+			sourceTree = "<group>";
+		};
+		8AE03534-16D9-7E04-BEDC-D4A51B97F6BB /* Base/sources/libs/kong/backends */ = {
+			isa = PBXGroup;
+			children = (
+				A6F69DD1-D6F4-F652-1462-9245D58D5C4B /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/hlsl.c */,
+				C3521B5C-2AE4-D15D-5FDF-50F14BD3A2C3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/metal.c */,
+				8D20C1A5-B522-D79D-D4E6-C61549DD3A1A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/spirv.c */,
+				48833E1B-BE03-6579-7259-4D1237AAC369 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/util.c */,
+				47E20338-36F0-1723-2E2D-A23AC62013C2 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/glsl.c */,
+				F6EC804C-83AE-737C-06F8-71C39007B2D3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cpu.c */,
+				8271BDBD-99B0-6FB9-4610-FC6B2E2BC6C8 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/wgsl.c */,
+				36EE1D53-59B7-965F-775C-DE26359CF379 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/d3d11.c */,
+				D0A053B2-FC11-F018-0709-4A32744E91D4 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cstyle.c */,
+			);
+			name = "backends";
+			sourceTree = "<group>";
+		};
+		541EB967-8DBF-8E9C-70C1-4B7BA8E5DBAB /* Base/sources/libs/kong/libs */ = {
+			isa = PBXGroup;
+			children = (
+				14139636-006D-25CB-2A1F-B1F6D382AD6C /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/libs/stb_ds.c */,
+			);
+			name = "libs";
+			sourceTree = "<group>";
+		};
+		0FA9DD75-F0D7-7B4D-F3A0-5215D72B09B8 /* paint/plugins */ = {
+			isa = PBXGroup;
+			children = (
+				B27F42D8-4265-F052-6443-1E935506BA9A /* paint/plugins/io_exr */,
+				FE5BB431-CC4B-7CE9-7625-633FE5965E27 /* paint/plugins/io_svg */,
+				354892C1-F3B5-8135-3935-F9DE0AAACFE5 /* paint/plugins/proc_xatlas */,
+				55A3A4B8-B827-2177-A976-053DA5ED3B85 /* paint/plugins/io_usd */,
+				187B8E93-2F76-5CE8-07D6-C1EA943B04B5 /* paint/plugins/io_fbx */,
+				2317D800-3FBD-40A7-04FF-4E678832B155 /* paint/plugins/io_gltf */,
+				5925E4C3-EA9B-D61D-E32D-D4F42A8F1E4D /* /home/dawn-admin/repos/armorpaint/paint/plugins/plugins.c */,
+			);
+			name = "plugins";
+			sourceTree = "<group>";
+		};
+		60B66DE4-3559-43CA-61F1-FFCF3A16A27B /* paint */ = {
+			isa = PBXGroup;
+			children = (
+				0FA9DD75-F0D7-7B4D-F3A0-5215D72B09B8 /* paint/plugins */,
+			);
+			path = ../;
+			name = "paint";
+			sourceTree = "<group>";
+		};
+		B27F42D8-4265-F052-6443-1E935506BA9A /* paint/plugins/io_exr */ = {
+			isa = PBXGroup;
+			children = (
+				FA52E398-0B6C-1CA8-8A58-27B1864588B9 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_exr/io_exr.c */,
+			);
+			name = "io_exr";
+			sourceTree = "<group>";
+		};
+		FE5BB431-CC4B-7CE9-7625-633FE5965E27 /* paint/plugins/io_svg */ = {
+			isa = PBXGroup;
+			children = (
+				1A3C5CA9-F4D1-D567-75EF-D4C49F430EF2 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/LICENSE.md */,
+				C0DE6ACE-0E55-402E-D19F-BDDE5BB33202 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.c */,
+				470EB9FC-8025-D390-6457-CBDF31FDBE37 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.h */,
+				FE09D2FD-24A7-3C5F-4426-0E01EFC2DA0F /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvgrast.h */,
+			);
+			name = "io_svg";
+			sourceTree = "<group>";
+		};
+		354892C1-F3B5-8135-3935-F9DE0AAACFE5 /* paint/plugins/proc_xatlas */ = {
+			isa = PBXGroup;
+			children = (
+				76272066-0657-BC87-27BB-80D4C705218B /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/LICENSE.md */,
+				D211965D-ADBD-10D3-6D0B-FE7DEC62E050 /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.h */,
+				D9A73AA8-E78B-2512-E79B-B1E1AF89F06E /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.cpp */,
+			);
+			name = "proc_xatlas";
+			sourceTree = "<group>";
+		};
+		55A3A4B8-B827-2177-A976-053DA5ED3B85 /* paint/plugins/io_usd */ = {
+			isa = PBXGroup;
+			children = (
+				E3777F92-F436-78B8-F9B6-51FDB57BEC20 /* paint/plugins/io_usd/tinyusdz */,
+				76B80A6F-323E-6D17-E811-599D8A62FCFF /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/io_usd.cc */,
+			);
+			name = "io_usd";
+			sourceTree = "<group>";
+		};
+		E3777F92-F436-78B8-F9B6-51FDB57BEC20 /* paint/plugins/io_usd/tinyusdz */ = {
+			isa = PBXGroup;
+			children = (
+				5AFD831C-3AAA-6155-2321-3610A1D220C4 /* paint/plugins/io_usd/tinyusdz/pxrLZ4 */,
+				714558D9-4AE5-9736-750C-C3F44141C9C7 /* paint/plugins/io_usd/tinyusdz/external */,
+				A1DD050C-6370-8283-87BB-800F0ACCDE73 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.hh */,
+				D456E51E-F034-7562-3BE2-0F2533C53558 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.hh */,
+				7601496F-9133-B385-377E-5614A4FDB04A /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.cpp */,
+				39B71219-03A9-A65D-8FFD-A6A9E5D255F8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/LICENSE */,
+				4C8F530C-77B5-A7E8-DB2C-D06E8D7663B8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.cc */,
+				42650A76-EA2A-7220-6482-DE58713709A7 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/stream-reader.hh */,
+				0136371E-7934-A9B7-8627-942BB4AFF369 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.cc */,
+				F1B63949-6483-386C-4DA9-087EEC4803EC /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.h */,
+			);
+			name = "tinyusdz";
+			sourceTree = "<group>";
+		};
+		5AFD831C-3AAA-6155-2321-3610A1D220C4 /* paint/plugins/io_usd/tinyusdz/pxrLZ4 */ = {
+			isa = PBXGroup;
+			children = (
+				513A95B9-C270-B657-9BA2-322801C986D8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.cpp */,
+				F042CBDD-3C21-1A5F-6E3F-553AB2DFA118 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.h */,
+			);
+			name = "pxrLZ4";
+			sourceTree = "<group>";
+		};
+		714558D9-4AE5-9736-750C-C3F44141C9C7 /* paint/plugins/io_usd/tinyusdz/external */ = {
+			isa = PBXGroup;
+			children = (
+				A5F4C2FC-4D86-769E-E13E-01C5BE42EEE9 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/external/stb_image.h */,
+			);
+			name = "external";
+			sourceTree = "<group>";
+		};
+		187B8E93-2F76-5CE8-07D6-C1EA943B04B5 /* paint/plugins/io_fbx */ = {
+			isa = PBXGroup;
+			children = (
+				1C094C9C-A5E2-7432-D3AE-33AC444CFE14 /* paint/plugins/io_fbx/ufbx */,
+				9B6FE63E-BD09-1D33-F43D-C17D76350E9A /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/io_fbx.c */,
+			);
+			name = "io_fbx";
+			sourceTree = "<group>";
+		};
+		1C094C9C-A5E2-7432-D3AE-33AC444CFE14 /* paint/plugins/io_fbx/ufbx */ = {
+			isa = PBXGroup;
+			children = (
+				09383984-11E6-0A0E-7B3A-DC3E72B0546D /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.c */,
+				3665224F-286D-DDE1-0BCA-C31A92CDDF3D /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/LICENSE */,
+				EB45C1F9-CCD1-1D69-F850-0F7097BD33CB /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.h */,
+			);
+			name = "ufbx";
+			sourceTree = "<group>";
+		};
+		2317D800-3FBD-40A7-04FF-4E678832B155 /* paint/plugins/io_gltf */ = {
+			isa = PBXGroup;
+			children = (
+				BF719DFE-2442-7F91-3388-133F27172475 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/LICENSE.md */,
+				77B45EF3-497D-6D79-3C26-3466276D941C /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.c */,
+				7764BB70-1365-542C-306F-FBEA90503B70 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.h */,
+			);
+			name = "io_gltf";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9093C907-188C-5FF6-67ED-45B8844E93C4 /* ArmorPaint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFC086D-1333-B402-2E5E-9BF38A23D7B0 /* Build configuration list for PBXNativeTarget "ArmorPaint" */;
+			buildPhases = (
+				3C42FF71-5E1A-3642-7C73-61709A3EF654 /* Sources */,
+				0A353513-1942-BCCF-EA5D-68A82699F97E /* Frameworks */,
+				65DB732C-C6EA-6862-27C3-380A69F63D63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ArmorPaint";
+			productName = "ArmorPaint";
+			productReference = 0753EC43-7AC3-ABDD-AEA5-BD519E5111A4 /* ArmorPaint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE13D0C6-37D0-C188-7958-C2D5A9A72054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1230;
+				ORGANIZATIONNAME = "Armory3D";
+				TargetAttributes = {
+					9093C907-188C-5FF6-67ED-45B8844E93C4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = C70F0411-EA44-E9DB-B0F5-49C6E90107C2 /* Build configuration list for PBXProject "ArmorPaint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A55EDB8A-A78E-2100-1DC9-726690C1F95B;
+			productRefGroup = 17F36A59-38A9-F105-7757-9060D017C0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9093C907-188C-5FF6-67ED-45B8844E93C4 /* ArmorPaint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65DB732C-C6EA-6862-27C3-380A69F63D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B952C0C-3274-F186-95FC-0901A2F970CD /* Deployment in Resources */,
+				A7F4F1C6-6414-56DE-DB06-02B49D1D7FE8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C42FF71-5E1A-3642-7C73-61709A3EF654 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				599D6595-ED6A-E4E9-CA14-52009D66F631 /* /home/dawn-admin/repos/armorpaint/base/sources/iron.c in Sources */,
+				CF991334-DC3E-39B8-A09A-154E540C37CB /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec4.c in Sources */,
+				27E3A818-0D4A-0C4B-61EF-23B13E48E753 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_audio.c in Sources */,
+				6ADA0CA3-82A5-4C1D-7BC6-5EF590B33A9A /* /home/dawn-admin/repos/armorpaint/base/sources/const_data.c in Sources */,
+				CCA108FD-C741-7169-2BDC-19C86BDA13A7 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_file.c in Sources */,
+				ED0931FF-5611-7636-F77B-53637FAE0C9F /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gpu.c in Sources */,
+				D891A92E-5271-9EEF-5675-617F62FE4895 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_json.c in Sources */,
+				09A451D3-A0E5-5325-28DC-0E592BB17E14 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui_nodes.c in Sources */,
+				50FF083C-ADE2-8852-F78A-9479C28B5288 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat3.c in Sources */,
+				6D69D573-E6C8-F9E7-170E-CFA62453C939 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_mat4.c in Sources */,
+				A8DB66BD-100A-DBC7-762C-1AC87185B174 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_string.c in Sources */,
+				EAA9A9C9-8586-2C8E-A001-5C32DD87827B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_map.c in Sources */,
+				75184A2D-8155-39D4-1532-9A3D05B527B4 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_obj.c in Sources */,
+				AA54616D-FE09-247C-14BA-BA5C464EAC9A /* /home/dawn-admin/repos/armorpaint/base/sources/iron_system.c in Sources */,
+				13E4F28E-D554-F09D-C85F-ED0B5220D737 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_ui.c in Sources */,
+				F25FA5E5-954A-B91B-91AC-B48E9B2DF31B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_quat.c in Sources */,
+				CB17EC7A-B86D-FFDB-0406-0014F835A36B /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec2.c in Sources */,
+				EE5A1D79-A5CC-1804-079A-9FC947B1A659 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_draw.c in Sources */,
+				E5C73B54-6B81-91DB-5AA2-ADFAFE03CFDD /* /home/dawn-admin/repos/armorpaint/base/sources/iron_armpack.c in Sources */,
+				31B42B5C-405C-360F-3654-4732115C9EBC /* /home/dawn-admin/repos/armorpaint/base/sources/iron_array.c in Sources */,
+				800361F7-D905-86F3-692C-2CEAEF6655B1 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_vec3.c in Sources */,
+				F8DCF785-2A19-5A19-DF44-6F274A0882A8 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_math.c in Sources */,
+				D0A778B1-425A-8654-1762-684679B23FE1 /* /home/dawn-admin/repos/armorpaint/base/sources/iron_gc.c in Sources */,
+				B760592D-70D6-868D-8454-7BB675ABC5A5 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_system.m in Sources */,
+				AF468BC5-304E-7B4B-FF69-D1AFBFF45CC0 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_thread.m in Sources */,
+				6F19BE96-CEB6-C4A2-2893-8EE331562E4C /* /home/dawn-admin/repos/armorpaint/base/sources/backends/apple_net.m in Sources */,
+				C1A9EC28-9E38-95F6-5A5E-E1F0B51537CE /* /home/dawn-admin/repos/armorpaint/base/sources/backends/metal_gpu.m in Sources */,
+				D2F820C9-DB95-8559-0F9B-878550103EF5 /* /home/dawn-admin/repos/armorpaint/base/sources/backends/ios_file_dialog.m in Sources */,
+				BD202682-2D02-9D68-AF67-45A9E0E68EAE /* /home/dawn-admin/repos/armorpaint/base/sources/plugins/plugin_api.c in Sources */,
+				BAF69A44-712D-AF53-1C43-A083080C6AE4 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/gc.c in Sources */,
+				C9755817-3BF6-CEB9-495E-1A438B0E64AC /* /home/dawn-admin/repos/armorpaint/base/sources/libs/quickjs-amalgam.c in Sources */,
+				787DE25D-B116-09CB-8680-467B206CD8CC /* /home/dawn-admin/repos/armorpaint/base/sources/libs/asim.c in Sources */,
+				97225AF0-EC65-61CC-5265-24C30E42C6F2 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minimp4.c in Sources */,
+				06B69C10-97B8-F38C-EF93-00F2FF2CE217 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/minih264e.c in Sources */,
+				C8E772B8-F438-62C7-BA19-4932D4EF06DD /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/dir.c in Sources */,
+				B9DFB469-01B7-0D32-7DD5-743B02D9A6FA /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/functions.c in Sources */,
+				F9741C1D-84B7-5332-DD1F-EFD4303E2C85 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/compiler.c in Sources */,
+				9078A76F-3C22-E963-F80A-5D4D369CE051 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/names.c in Sources */,
+				04D0B6C4-6433-D1C5-AC62-6D1ED883A747 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/log.c in Sources */,
+				8F7BABAC-F07E-40B8-18A0-F9B77CD7ABE3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/parser.c in Sources */,
+				B0B46078-3555-775A-72FC-06EDA58CED8A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/globals.c in Sources */,
+				5F90BE82-CA2F-31AF-269E-04F41BE91AF0 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/kong.c in Sources */,
+				B1193D4E-BAB7-3BA4-6B04-D29DDA745365 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/tokenizer.c in Sources */,
+				C4E31F53-0D01-AC8B-93F1-1BFE7CE4D880 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/types.c in Sources */,
+				3B21BB98-AAFC-6E65-3FE5-52FCD729422D /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/typer.c in Sources */,
+				02EA9C16-3580-C7A7-9138-92F4BB2101C0 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/transformer.c in Sources */,
+				D988C3C1-C482-E453-44B8-22A99C603038 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/analyzer.c in Sources */,
+				B9D6C0B0-983F-BC97-EBF5-CD13C84E2BA1 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/errors.c in Sources */,
+				0790D158-18F6-0D47-22BA-C2A691CDE542 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/disasm.c in Sources */,
+				26553B9A-083A-9296-8971-4CA28598B0E6 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/sets.c in Sources */,
+				8D48D724-E79D-971B-E0CF-62C51BC9A3FE /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/hlsl.c in Sources */,
+				26F7AB35-3CEB-4BA8-F2DD-E5949DDA356A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/metal.c in Sources */,
+				9616FE67-AB18-9A7F-96DF-60B40905F72A /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/spirv.c in Sources */,
+				A2317F0D-746D-908A-27A5-CCD2C81F3663 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/util.c in Sources */,
+				F3F87A05-7A67-6C5E-51AB-A5A7B1D6940E /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/glsl.c in Sources */,
+				2BD9BCE6-89C8-A1D6-1377-51CCCB6C5FA7 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cpu.c in Sources */,
+				1F94F006-C74D-61BA-BE6B-23137DC28BC3 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/wgsl.c in Sources */,
+				6BA32C19-0E4D-A5F4-1330-EB9DAE72FDFF /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/d3d11.c in Sources */,
+				32B6636A-5E92-BB55-D7B5-EC21D524DC65 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/backends/cstyle.c in Sources */,
+				FBEB8B18-584B-D5A6-5CFF-9F8D3D781114 /* /home/dawn-admin/repos/armorpaint/base/sources/libs/kong/libs/stb_ds.c in Sources */,
+				0CF76BB6-088E-F84B-EDE2-4DCE8420448C /* /home/dawn-admin/repos/armorpaint/paint/plugins/plugins.c in Sources */,
+				2FABB75D-F9C0-F847-632F-C3B80A162D7A /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_exr/io_exr.c in Sources */,
+				BD7CF8CA-DA94-5BC1-63A4-A0BB5C4E1A2B /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_svg/nanosvg.c in Sources */,
+				EB18EF76-CA85-1B1D-82FD-07771CC90BBA /* /home/dawn-admin/repos/armorpaint/paint/plugins/proc_xatlas/xatlas.cpp in Sources */,
+				413F2AA9-70BD-79E4-31F5-4828FF9FD8F4 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/io_usd.cc in Sources */,
+				5C47572C-63FF-BEE6-132A-55AC8A6226C8 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/integerCoding.cpp in Sources */,
+				A104CC0B-BB2C-E104-D2EF-9D5F0402DCAE /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/tinyusdz.cc in Sources */,
+				E8A5763F-1461-16A3-81CB-0799009684A9 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/lz4-compression.cc in Sources */,
+				B40DDC01-F893-9731-5D32-AB96F887C171 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_usd/tinyusdz/pxrLZ4/lz4.cpp in Sources */,
+				C721C7D6-6458-8565-5531-1C95DF8A4CE7 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/io_fbx.c in Sources */,
+				E23E7CF1-C9CA-3774-AFD7-D3F2FD163BE0 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_fbx/ufbx/ufbx.c in Sources */,
+				D50E97C3-1FAA-253E-EA1D-E0E57CF5F191 /* /home/dawn-admin/repos/armorpaint/paint/plugins/io_gltf/cgltf.c in Sources */,
+			);
+runOnlyForDeploymentPostprocessing = 0;
+};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		99FCBCD0-B86E-7BA2-1A4F-8B2E3433C920 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = "c11";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"IRON_C_PATH=\\\"/home/dawn-admin/repos/armorpaint/paint/build/iron.c\\\"",
+					"EMBED_H_PATH=\\\"/home/dawn-admin/repos/armorpaint/paint/build/embed.h\\\"",
+					"BACKEND_SYS_H=\\\"backends/ios_system.h\\\"",
+					"BACKEND_NET_H=\\\"backends/apple_net.h\\\"",
+					"BACKEND_THREAD_H=\\\"backends/apple_thread.h\\\"",
+					"BACKEND_GPU_H=\\\"backends/metal_gpu.h\\\"",
+					IRON_METAL,
+					IRON_BGRA,
+					WITH_KONG,
+					WITH_PLUGINS,
+					TINYUSDZ_NO_STB_IMAGE_IMPLEMENTATION,
+					arm_physics,
+					WITH_EVAL,
+					QJS_BUILD_LIBC,
+					IDLE_SLEEP,
+					WITH_COMPRESS,
+					WITH_IMAGE_WRITE,
+					WITH_VIDEO_WRITE,
+					arm_vulkan,
+					arm_ios,
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B3CBE499-DEBB-53FC-B3A1-D57A39C62889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = "c11";
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					NDEBUG,
+					"IRON_C_PATH=\\\"/home/dawn-admin/repos/armorpaint/paint/build/iron.c\\\"",
+					"EMBED_H_PATH=\\\"/home/dawn-admin/repos/armorpaint/paint/build/embed.h\\\"",
+					"BACKEND_SYS_H=\\\"backends/ios_system.h\\\"",
+					"BACKEND_NET_H=\\\"backends/apple_net.h\\\"",
+					"BACKEND_THREAD_H=\\\"backends/apple_thread.h\\\"",
+					"BACKEND_GPU_H=\\\"backends/metal_gpu.h\\\"",
+					IRON_METAL,
+					IRON_BGRA,
+					WITH_KONG,
+					WITH_PLUGINS,
+					TINYUSDZ_NO_STB_IMAGE_IMPLEMENTATION,
+					arm_physics,
+					WITH_EVAL,
+					QJS_BUILD_LIBC,
+					IDLE_SLEEP,
+					WITH_COMPRESS,
+					WITH_IMAGE_WRITE,
+					WITH_VIDEO_WRITE,
+					arm_vulkan,
+					arm_ios,
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74B2BD33-8FAA-A3C7-CE38-389CECDD4591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"/home/dawn-admin/repos/armorpaint/base/sources",
+					"/home/dawn-admin/repos/armorpaint/base/sources/libs",
+				);
+				LIBRARY_SEARCH_PATHS = (
+				);
+				INFOPLIST_EXPAND_BUILD_SETTINGS = "YES";
+				INFOPLIST_FILE = "/home/dawn-admin/repos/armorpaint/base/sources/backends/data/ios.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.armory3d.armorpaint";
+				BUNDLE_VERSION = "251113";
+				BUILD_VERSION = "251113";
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EDA53D7A-A403-F7C3-71F0-976BD9933C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				ENABLE_HARDENED_RUNTIME = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					"/home/dawn-admin/repos/armorpaint/base/sources",
+					"/home/dawn-admin/repos/armorpaint/base/sources/libs",
+				);
+				LIBRARY_SEARCH_PATHS = (
+				);
+				INFOPLIST_EXPAND_BUILD_SETTINGS = "YES";
+				INFOPLIST_FILE = "/home/dawn-admin/repos/armorpaint/base/sources/backends/data/ios.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.armory3d.armorpaint";
+				BUNDLE_VERSION = "251113";
+				BUILD_VERSION = "251113";
+				CODE_SIGN_IDENTITY = "-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C70F0411-EA44-E9DB-B0F5-49C6E90107C2 /* Build configuration list for PBXProject "ArmorPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99FCBCD0-B86E-7BA2-1A4F-8B2E3433C920 /* Debug */,
+				B3CBE499-DEBB-53FC-B3A1-D57A39C62889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFC086D-1333-B402-2E5E-9BF38A23D7B0 /* Build configuration list for PBXNativeTarget "ArmorPaint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74B2BD33-8FAA-A3C7-CE38-389CECDD4591 /* Debug */,
+				EDA53D7A-A403-F7C3-71F0-976BD9933C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE13D0C6-37D0-C188-7958-C2D5A9A72054 /* Project object */;
+}
