@@ -15,7 +15,7 @@ jobs:
                      -sdk iphoneos \
                      -configuration Release
       - name: Export .app artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ArmorPaint-iOS
           path: paint/build/Release-iphoneos/*.app
